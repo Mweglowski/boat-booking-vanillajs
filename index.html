@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/medias.css">
+    <link rel="stylesheet" type="text/css" href="css/creation-panel.css">
+    <link rel="stylesheet" type="text/css" href="css/reservation-list-in-table.css">
+    <link rel="stylesheet" type="text/css" href="css/table.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/12bdcacd7a.js" crossorigin="anonymous"></script>
+    <title>Boat Booking</title>
+</head>
+<body>
+    <div id="container">
+        <i id="plus" class="fas fa-plus" alt="Add new reservation"></i>
+        <div id="table-box"></div>
+    </div>
+    <div id="creation-panel">
+        <label for="first-name-input">Name:</label>
+        <i id="exit-icon" class="fas fa-times"></i><br>
+        <input id="first-name-input" class="normal-border" name="name-input" placeholder="First name" type="text">
+        <input id="last-name-input" class="normal-border" name="name-input" placeholder="Last name" type="text">
+        <br><br>
+
+        <label for="boat-type-select-input">Boat:</label>
+        <!-- <div id="boat-error-div" class="hide"></div> -->
+        <br>
+        <input id="boat-type-select-input" class="normal-border" name="boat-type-select-input" placeholder="Select boat" list="boats">
+        <datalist id="boats">
+            <option>Pegazus 450a</option>
+            <option>Pegazus 450b</option>
+            <option>Pegazus 460</option>
+            <option>RIB</option>
+            <option>Krowa</option>
+            <option>Kajak I</option>
+            <option>Kajak II</option>
+            <option>Kajak III</option>
+            <option>Kajak IV</option>
+            <option>Rower I</option>
+            <option>Rower II</option>
+            <option>Omega I</option>
+            <option>Omega II</option>
+        </datalist>
+        <br><br>
+
+        <label for="first-hour-input">Hours:</label><br>
+        <input id="first-hour-input" class="normal-border" name="hour-input" placeholder="From" type="number" min="9" max="21"> 
+        <span id="minus">-</span> 
+        <input id="second-hour-input" class="normal-border" name="hour-input" placeholder="To" type="number" min="9" max="21">
+        <br><br>
+
+        <label for="additional-info">Additional info:</label><br>
+        <textarea id="additional-info" name="additional-info" cols="30" rows="10" style="resize: none"></textarea>
+        <br><br>
+
+        <button id="submit-btn">Submit</button>   
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

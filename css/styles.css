@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    min-width: 340px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    background-color: #d8e4f0;
+    display: flex;
+    margin: 2rem auto;
+    padding: 1.2rem;
+    border-radius: 15px;
+    box-shadow: 0 0.3rem 0 #c7d2dd;
+}
+
+.fa-plus {
+    font-size: 2.5rem;
+    color: #1A5276;
+    margin: auto auto .2em .2em;
+    border-radius: 15px;
+    padding: 3px;
+    cursor: pointer;
+    transition: .2s;
+}
+.fa-plus:hover {
+    color: #1a53768f;
+}
+.fa-plus:active {
+    transform: scale(0.8);
+}
+

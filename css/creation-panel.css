@@ -1,0 +1,97 @@
+#creation-panel {
+    background-color: rgba(207, 229, 233, 0.918);
+    position: absolute;
+    top: calc(-100vh - 500px); 
+    width: 350px;
+    left: 50%;
+    margin-left: -175px;
+    font-size: 1.7rem;
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 0 .3rem 0 rgba(165, 205, 211, 0.6), 
+    0 .1em 1em gray;
+    transition: .7s ease-out;
+    z-index: 10;
+}
+#creation-panel label {
+    cursor: pointer;
+    color: rgb(101, 124, 128);
+}
+#creation-panel input, #additional-info {
+    color: rgb(75, 74, 74);
+    font-size: 1.2rem;
+    padding: .1em;
+    border-radius: 7px;
+    /* border: 2px solid #dadada; */
+    transition: .5s;
+}
+#creation-panel input::placeholder, #additional-info::placeholder {
+    color: rgb(182, 182, 182);
+}
+#creation-panel input:focus, #additional-info:focus {
+    outline: none;
+    border: 2px solid rgb(101, 124, 128);
+    transition: .2s;
+}
+
+input[name="hour-input"] {
+    width: 70px;
+}
+input[name="boat-type-select-input"] {
+    width: 60%;
+}
+
+#additional-info {
+    width: 100%;
+    height: 4rem;
+    border: 2px solid #dadada;
+}
+
+.fa-times {
+    position: relative;
+    left: calc(100% - 32px - 69px);
+    color: white;
+    background-color: rgb(134, 164, 170);
+    border-radius: 5px;
+    display: inline;
+    padding: 5px 7px;
+    transition: .2s;
+}
+.fa-times:hover {
+    cursor: pointer;
+    background-color: rgb(156, 188, 195);
+    border-radius: 10px 5px;
+}
+
+#minus {
+    color: rgb(124, 154, 158);
+}
+#submit-btn {
+    background-color: rgb(134, 164, 170);
+    color: rgb(248, 248, 248);
+    border: none;
+    box-shadow: 0 .2rem 0 rgb(123, 149, 155);
+    padding: .5em .8em;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: .2s;
+}
+#submit-btn:active {
+    transform: scale(0.9);
+}
+#submit-btn:hover {
+    background-color: rgb(164, 200, 207);
+    border-color: rgba(247, 251, 251);
+    border-radius: 20px 10px;
+    box-shadow: 0 .2rem 0 rgb(156, 188, 195);
+}
+
+.normal-border {
+    border: 2px solid #dadada;
+}
+.red-border {
+    border: 2px solid red;
+}
+

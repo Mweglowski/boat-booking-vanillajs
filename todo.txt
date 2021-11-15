@@ -1,0 +1,42 @@
+>>> 
+opportunity to remove reservations, adding edit button on the top of the table and the bin icon and edit icon on the right of each reservation in reservation list in every table
+
+>>> 
+learn something about data bases and try to connect 
+
+>>>
+Create createNewTable function
+
+>>> 
+Rework reservationFinder()
+
+
+>>> add colors
+colors
+#ff9900
+#ff3300
+#ffcc00
+#99cc00
+#009900
+#00cc99
+#0099cc
+#0066ff
+#9999ff
+#cc00ff
+#ff3399
+#9900cc
+#339966
+#993333
+#996633
+#666699
+#003366
+#cc3300
+#ccccff
+#ffcccc
+#99ff99
+
+
+
+
+
+
