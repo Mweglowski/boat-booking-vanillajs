@@ -1,4 +1,5 @@
 console.log("%cBoat Booking", "background: #1a5276; color: white; padding: 8px; font-size: 1rem; font-weight: bold; border-radius: 10px;")
+//f
 
 const plus = document.getElementById('plus')
 const tableBox = document.getElementById('table-box')
