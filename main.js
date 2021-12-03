@@ -1,5 +1,4 @@
 console.log("%cBoat Booking", "background: #1a5276; color: white; padding: 8px; font-size: 1rem; font-weight: bold; border-radius: 10px;")
-//f
 
 const plus = document.getElementById('plus')
 const tableBox = document.getElementById('table-box')
@@ -22,8 +21,6 @@ const boats = Array.from(document.getElementById('boats').children).map(child =>
 let error = false
 
 let indexOfReservation = 0
-
-// let colors = ['#ff9900', '#ff3300', '#ffcc00', '#99cc00', '#009900', '#00cc99', '#0099cc', '#0066ff', '#9999ff', '#cc00ff', '#ff3399', '#9900cc', '#339966', '#993333', '#996633', '#666699' , '#003366', '#cc3300', '#ccccff', '#ffcccc', '#99ff99']
 
 let $newColor = ''
 
